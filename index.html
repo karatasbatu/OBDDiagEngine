@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OBD2 Vehicle Data Simulator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>OBDDiagEngine</h1>
+    </header>
+    <!--Body Parts-->
+    <div id="data-display">
+      <p>Engine RPM: <span id="rpm-value">--</span></p>
+      <!--Engine RPM -->
+      <p>Speed (km/h): <span id="speed-value">--</span></p>
+      <!--Speed Value -->
+      <p>Engine Temperature (°C): <span id="temp-value">--</span></p>
+      <!--Engine Temp-->
+      <h2>Error Codes</h2>
+      <!--Error Codes-->
+      <ul id="error-list">
+        <!--Error Codes they come here-->
+      </ul>
+    </div>
+    <!--Buttons-->
+    <button id="update-button">Update Data</button>
+    <!--Scripts-->
+    <script src="app.js"></script>
+  </body>
+</html>
